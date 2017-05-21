@@ -3,7 +3,45 @@
 .root {
   .root-heading {
     color: #FAFAFA;
-    font-size: 4rem;
+    font-size: 3rem;
     text-shadow: 1px 1px 4px #222;
+  }
+
+  .todos {
+    background-color: #FAFAFA;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+
+    li {
+      align-items: center;
+      display: flex;
+      font-size: 1.2rem;
+      height: 60px;
+      margin: 0;
+      padding: 0 10px;
+
+      &:first-child {
+        padding: 0;
+
+        form {
+          height: 100%;
+          width: 100%;
+
+          input {
+            background-color: #CCC;
+            border: 0;
+            font-size: inherit;
+            height: 100%;
+            outline: 0;
+            padding: 10px;
+            width: 100%;
+          }
+        }
+      }
+    }
   }
 }

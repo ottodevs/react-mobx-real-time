@@ -1,24 +1,7 @@
-React ES6 Starter
-==================
+React - MobX - Real-Time
+=========================
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/alexilyaev/react-es6-starter.svg)](https://greenkeeper.io/)
-
-Features
-----------
-
-- Webpack 2
-  - Transpiles `.js` files using Babel (settings in `.babelrc`)
-  - Transpiles `.scss` files using node-sass
-  - ESLint - Lints `js` files on changes (rules in `.eslintrc`)
-  - Stylelint - Lints `scss` files on changes (rules in `.stylelintrc`)
-  - PostCSS plugins (settings in `postcss.config.js`)
-    - Autoprefixer (supported browsers list in `browserslist` file)
-  - Dynamic `index.html` generation
-  - Dynamic build file names with hash for cache busting
-- React
-  - React Hot Loader v3
-  - React Router v4
-    - HTML5 History API (non hash routes)
+POC for real-time data updates with React, MobX and WebSockets.
 
 Getting Started
 ----------------
